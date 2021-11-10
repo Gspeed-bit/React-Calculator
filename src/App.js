@@ -52,6 +52,8 @@ setVal(finState)
   };
   const reset = () =>{
       setVal("0")
+      setIniState("")
+      setFinState("")
   };
 
 
