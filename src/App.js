@@ -44,16 +44,16 @@ function App() {
     <div className=" darks btn" onClick={numInput}> 8 </div>
     <div className=" darks btn" onClick={numInput}> 9 </div>
     <div className="oranges btn" onClick={operatorType}> x </div>
-    <div className=" darks btn" onClick={numInput}> 4 </div>
-    <div className=" darks btn" onClick={numInput}> 5 </div>
-    <div className=" darks btn" onClick={numInput}> 6 </div>
+    <div className="  btn" onClick={numInput}> 4 </div>
+    <div className="  btn" onClick={numInput}> 5 </div>
+    <div className="  btn" onClick={numInput}> 6 </div>
     <div className="oranges btn" onClick={operatorType}> + </div>
-    <div className=" darks btn" onClick={numInput}> 1 </div>
-    <div className=" darks btn" onClick={numInput}> 2 </div>
-    <div className=" darks btn" onClick={numInput}> 3 </div>
+    <div className="  btn" onClick={numInput}> 1 </div>
+    <div className="  btn" onClick={numInput}> 2 </div>
+    <div className="  btn" onClick={numInput}> 3 </div>
     <div className="oranges btn" onClick={operatorType}> - </div>
-    <div className=" darks btn" onClick={numInput}> 0 </div>
-    <div className=" darks btn" onClick={numInput}> . </div>
+    <div className="btn darks-zeros " onClick={numInput}> 0 </div>
+    <div className="  btn" onClick={numInput}> . </div>
     <div className=" oranges darks btn" onClick={equals}> = </div>
 
      </div>
