@@ -73,7 +73,7 @@ Variables
 
   .container{
     background-color: var(--clr-primary-5);
-    width: 33vh;
+    width: 30vh;
     height: 53vh; 
     border-radius:10px;
     box-shadow: 6.3px 12.6px 12.6px hsl(0deg 0% 0% / 0.30);
@@ -86,7 +86,7 @@ Variables
     color: black;
     padding: 0.5rem;
     background-color: rgb(255, 255, 255);
-    border-radius: 20px 6px;
+    border-radius: 20px 7px;
     font-size: 1.9rem;
     overflow: hidden;
 }
@@ -134,7 +134,15 @@ Variables
     
 }
 
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  .container{
+    padding: 5px;
+    width: 25vh;
+    height: 35vh; 
 
+}
+}
 
   @media screen and (min-width: 800px) {
    
@@ -161,7 +169,8 @@ Variables
     }
     .container{
         padding: 9px;
-   
+        width: 55vh;
+        height: 70vh; 
     }
 
      }
