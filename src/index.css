@@ -1,3 +1,5 @@
+
+@import-normalize; 
 /*
 =============== 
 Variables
@@ -62,7 +64,7 @@ Variables
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: var(--clr-primary-1);
     color: var(--clr-grey-1);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     display: grid;
     place-content: center;
     height: 100vh;
@@ -71,8 +73,8 @@ Variables
 
   .container{
     background-color: var(--clr-primary-5);
-    width: 30vh;
-    height: 45vh; 
+    width: 33vh;
+    height: 53vh; 
     border-radius:10px;
     box-shadow: 6.3px 12.6px 12.6px hsl(0deg 0% 0% / 0.30);
     padding: 3px;
@@ -80,10 +82,12 @@ Variables
 
 .screen{
     grid-column: 1/-1;
-    text-align: end;
-    color: white;
+    text-align: right;
+    color: black;
     padding: 0.5rem;
-    font-size: 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 6px;
+    font-size: 1.9rem;
     overflow: hidden;
 }
 
@@ -144,7 +148,7 @@ Variables
    
     }
     .screen{
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
    
